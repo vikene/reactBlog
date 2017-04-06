@@ -1,10 +1,11 @@
 *{
   box-sizing: border-box;
+  
 }
 
 [class*="col-"]{
   float:left;
-  padding: 15px;
+  padding: 5px;
 
 }
 
@@ -64,5 +65,39 @@
 }
 
 .card{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #E7EEF2;
+}
+
+.row{
+margin: 10px;
+}
+
+input[type=text]{
+  width: 350px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 5px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 40px;
+ border: 2px solid #ccc;
+  -webkit-transition: width 0.3s ease-in-out;
+  background-image: url('js/search.png');
+  background-position: 5px 5px;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+
+input[type=text]:focus{
+  width: 100%;
+}
+
+.banner{
+  background-color: #ccc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
 }
