@@ -82,7 +82,7 @@ padding-bottom: 12px;
 padding-left: 40px;
  border: 2px solid #ccc;
   -webkit-transition: width 0.3s ease-in-out;
-  background-image: url('js/search.png');
+  background-image: url('search.png');
   background-position: 5px 5px;
   background-size: 30px 30px;
   background-repeat: no-repeat;
