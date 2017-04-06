@@ -35,6 +35,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "webpack --watch",
+    "dev": "webpack-dashboard -p 3004 -- webpack --colors  --watch ",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
