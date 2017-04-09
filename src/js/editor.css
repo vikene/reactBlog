@@ -1,0 +1,36 @@
+textarea{
+    width: 100%;
+    font-size: 18px;
+}
+.title_editor{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    border: 2px solid #ccc;
+    -webkit-transition: width 0.3s ease-in-out;
+
+}
+
+.rawhtml{
+    padding-left: 5px;
+    background-color: #eeeeee;
+}
+
+.editorPage{
+    padding: 10px;
+}
+.title_editor:focus{
+    width:100%;
+}
+
+.postButton{
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    font-size: 22px;
+    width: 90%;
+}
