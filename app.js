@@ -56,11 +56,9 @@ const watching = compiler.watch({
 },function(err,stats){
 });
 
-compiler.plugin('bundle-update',function (newModules, changedModules, removedModules, stats) {
-    console.log('new modules: ', newModules);
-    console.log('changed modules: ', changedModules);
-    console.log('removed modules: ', removedModules);
-});
+app.get('/api',function (req,res) {
+    res.send("Hellow world")
+})
 app.use(express.static('dist'));
 
 app.set('port', 3000);
